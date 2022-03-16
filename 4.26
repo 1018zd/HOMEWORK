@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char a,b,c,d,e;
+    cin>>a>>b>>c>>d>>e;
+    if(a==e&&b==d)cout<<"是回文数"<<endl;
+    else cout<<"不是回文数"<<endl;
+    return 0;
+}
